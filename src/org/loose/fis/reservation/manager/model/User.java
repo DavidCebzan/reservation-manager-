@@ -7,10 +7,12 @@ public class User {
     private String id;
     private String firstName;
     private String lastName;
-   
     private int age;
+    
+    // field that says if the user owns a company that you can get reservations to
     private boolean isOwner;
-
+    
+>>>>>>> master
     public User(String firstName, String lastName, int age) {
         id = UUID.randomUUID().toString();
         this.firstName = firstName;
